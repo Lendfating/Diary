@@ -1,0 +1,8 @@
+C:\Users\Zhen\Desktop\workspace\Diary Workspace\自定义控件库\bin\Debug\自定义控件库.dll
+C:\Users\Zhen\Desktop\workspace\Diary Workspace\自定义控件库\bin\Debug\自定义控件库.pdb
+C:\Users\Zhen\Desktop\workspace\Diary Workspace\自定义控件库\obj\Debug\自定义控件库.CalendarBox.resources
+C:\Users\Zhen\Desktop\workspace\Diary Workspace\自定义控件库\obj\Debug\自定义控件库.HtmlTextBox.resources
+C:\Users\Zhen\Desktop\workspace\Diary Workspace\自定义控件库\obj\Debug\自定义控件库.Properties.Resources.resources
+C:\Users\Zhen\Desktop\workspace\Diary Workspace\自定义控件库\obj\Debug\自定义控件库.csproj.GenerateResource.Cache
+C:\Users\Zhen\Desktop\workspace\Diary Workspace\自定义控件库\obj\Debug\自定义控件库.dll
+C:\Users\Zhen\Desktop\workspace\Diary Workspace\自定义控件库\obj\Debug\自定义控件库.pdb

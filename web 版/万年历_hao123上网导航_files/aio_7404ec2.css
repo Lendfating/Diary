@@ -1,0 +1,571 @@
+html, body {
+	height:100%;
+}
+body {
+    color: #444;
+    font: 12px / 1.5em arial;
+    height: 100%;
+    margin: 0;
+    padding: 0
+}
+
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p {
+    margin: 0;
+    padding: 0
+}
+
+ul {
+    list-style: none
+}
+
+li {
+    list-style-type: none
+}
+
+img {
+    border: 0;
+    vertical-align: top
+}
+
+select,input {
+    font-size: 12px
+}
+
+address,cite,code,em,th {
+    font-style: normal;
+    font-weight: 400
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed
+}
+
+.e_clear:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden
+}
+
+.e_clear {
+    display: inline-block
+}
+
+.e_clear {
+    display: block
+}
+
+textarea {
+    background: #fff;
+    border: 1px solid #d2d9dc;
+    border-radius: 2px;
+    box-shadow: 0 0 0 #d2d9dc;
+    -moz-transition: .3s ease-in-out;
+    transition-property: border box-shadow;
+    -webkit-transition: .3s ease-in-out
+}
+
+textarea:focus,input[type=text]:focus {
+    box-shadow: 0 0 5px #b7d4ea
+}
+
+a {
+    color: #208de9;
+    cursor: pointer;
+    text-decoration: none
+}
+
+a:hover {
+    color: #ff5b86
+}
+
+.none {
+    display: none
+}
+
+.main {
+	width:100%;
+	height:100%;
+	margin:0 auto;
+	overflow: hidden;
+}
+/****************************************************
+ * 左侧日期控制区域
+ ***************************************************/
+.h_calendar {
+    width: 600px;
+    float: left;
+}
+
+.h_calendar_select {
+    height: 42px;
+    background: url(images/h_calendar_select.jpg) no-repeat left top;
+    padding: 10px 15px 0
+}
+
+.time {
+    width: 90px;
+    height: 33px;
+    float: left;
+    line-height: 33px;
+    padding-left: 92px;
+    font-size: 20px;
+    font-family: Arial;
+    color: #fff;
+    background: url(images/time.jpg) no-repeat
+}
+
+.select_date {
+    padding-left: 12px;
+    float: none;
+    padding-top: 4px
+}
+
+.select_date select {
+    display: none
+}
+
+.select_year,.select_month,.select_day,.return_today_btn {
+    float: left;
+    display: inline;
+    width: 142px;
+    height: 27px;
+    margin-left: 10px;
+    display: inline
+}
+
+.left_arrow,.right_arrow {
+    float: left;
+    width: 13px;
+    height: 27px;
+    cursor: pointer
+}
+
+.left_arrow:hover {
+    background: url(images/arrow.jpg) left top no-repeat
+}
+
+.right_arrow:hover {
+    background: url(images/arrow.jpg) right top no-repeat
+}
+
+.left_arrow {
+    background: url(images/arrow.jpg) left -27px no-repeat
+}
+
+.right_arrow {
+    background: url(images/arrow.jpg) right -27px no-repeat
+}
+
+.select_year_box,.select_month_box,.select_day {
+    cursor: default;
+    width: 105px;
+    height: 27px;
+    float: left;
+    margin: 0 5px;
+    display: inline
+}
+
+.dropselectbox {
+    border: 1px solid #1f9237;
+    background: #fff;
+    position: relative;
+    z-index: 10
+}
+
+.dropselectbox h4 {
+    width: 72px;
+    height: 22px;
+    line-height: 22px;
+    padding: 1px 30px 1px 1px;
+    text-align: center;
+    background: #fff url(images/droparrow.jpg) no-repeat 79px 1px;
+    cursor: pointer;
+    font-size: 14px
+}
+
+.dropselectbox ul {
+    max-height: 215px;
+    _height: 215px;
+    overflow-y: scroll;
+    background: #e6f4e1;
+    margin: 5px 0 0 1px
+}
+
+.dropselectbox ul li {
+    cursor: pointer;
+    width: 85px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    color: #666;
+    font-size: 14px
+}
+
+.dropselectbox ul li.on {
+    background: #1f9237;
+    color: #fff
+}
+
+.dropselectbox ul li:hover {
+    background: #1f9237;
+    color: #fff
+}
+
+.return_today_btn {
+    width: 73px;
+    cursor: pointer;
+    line-height: 26px;
+    background: url(images/return_today_btn.jpg) no-repeat;
+    text-align: center;
+    color: #fff;
+    font-size: 14px
+}
+
+.return_today_btn:hover {
+    color: #fff
+}
+
+.h_calendar_week {
+    height: 36px;
+    line-height: 36px;
+    padding-top: 5px;
+    background: url(images/h_calendar_week.jpg) repeat-x left top
+}
+
+.h_calendar_week ul,.h_calendar_list ul {
+    margin-left: -4px;
+    margin-right: -35px;
+    *width: 770px
+}
+
+.h_calendar_week ul,.h_calendar_list ul {
+    display: inline-block
+}
+
+.h_calendar_week ul,.h_calendar_list ul {
+    display: block
+}
+
+.h_calendar_week ul li {
+    float: left;
+    width: 81px;
+    text-align: center;
+    margin-left: 5px;
+    display: inline;
+    color: #25992e;
+    font-size: 14px;
+    font-family: "Microsoft YaHei"
+}
+
+.h_calendar_week ul li.week {
+    color: #ed6d23
+}
+
+.h_calendar_list ul li {
+    width: 79px;
+    height: 54px;
+    border: 1px solid #f3f3f4;
+    float: left;
+    margin: 5px 0 0 5px;
+    display: inline;
+    text-align: right;
+    cursor: pointer;
+    overflow: hidden
+}
+
+.solar_date {
+    font-size: 24px;
+    font-family: Arial;
+    font-weight: 600;
+    padding: 12px 12px 0;
+    line-height: 23px;
+    height: 23px;
+    color: #555
+}
+
+.lunar_date {
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    padding-right: 12px;
+    color: #999
+}
+
+.nextbefor {
+    background: #fff;
+    filter: alpha(opacity=50);
+    -moz-opacity: .5;
+    -khtml-opacity: .5;
+    opacity: .5
+}
+
+.h_calendar_list ul li.rest {
+    background: url(images/rest.jpg) -1px -1px no-repeat
+}
+
+.h_calendar_list ul li.work {
+    background: url(images/work.jpg) -1px -1px no-repeat
+}
+
+.h_calendar_list ul li.today {
+    background: url(images/today.jpg) -1px -1px no-repeat
+}
+
+.today .solar_date,.today .lunar_date {
+    color: #1f9237
+}
+
+.h_calendar_list ul li.on {
+    width: 79px;
+    height: 54px;
+    border: 1px solid #9ad97d;
+    position: relative
+}
+
+.h_calendar_list ul li.on .border {
+    position: absolute;
+    width: 75px;
+    height: 50px;
+    border: 3px solid #9ad97d;
+    left: -1px;
+    top: -1px
+}
+
+.h_calendar_list ul li.reston {
+    background: url(images/reston.jpg) -1px -1px no-repeat
+}
+
+.h_calendar_list ul li.workon {
+    background: url(images/workon.jpg) -1px -1px no-repeat
+}
+
+.weekend .solar_date,.weekend .lunar_date {
+    color: #ed6d23
+}
+
+.isolar .lunar_date {
+    color: #1f9237
+}
+
+.solar .lunar_date {
+    color: #6aba49
+}
+
+.vacation .solar_date,.vacation .lunar_date {
+    color: #ed6d23
+}
+
+.work .solar_date,.workon .solar_date {
+    color: #555
+}
+
+.work .lunar_date,.workon .lunar_date {
+    color: #999
+}
+
+.c_ed6d23 {
+    color: #ed6d23
+}
+
+.c_6aba49 {
+    color: #6aba49
+}
+
+.c_1f9237 {
+    color: #1f9237
+}
+
+.h_calendar_exp {
+    height: 65px;
+    background: #f8f8f9;
+    margin-top: 5px;
+    padding: 26px 0
+}
+
+.h_calendar_exp.notips {
+    padding: 0
+}
+
+.exp_text {
+    float: left;
+    padding: 12px 0 0 30px
+}
+
+.exp_text p {
+    margin-bottom: 5px;
+    color: #999
+}
+
+.exp_text strong {
+    margin-right: 15px;
+    color: #424242
+}
+
+/****************************************************
+ * 右侧信息文章显示、编辑区域
+ ***************************************************/
+.editor {
+	width: auto;
+	margin: 0;
+	margin-left:600px;
+	border-left: 2px solid #d9d9d9;
+	font-size: 16px;
+	font-weight: 100;
+	line-height: 25px;
+	font-family: Georgia, "Times New Roman", Times, "Songti SC", "SimSun", serif;
+}
+
+.editor .title {
+	padding: 13px 20px 10px 30px;
+	margin-bottom: 0;
+	border-bottom: 1px dotted #d9d9d9;
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 30px;
+}
+
+.editor .toolbar {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	border-bottom: 1px solid #d9d9d9;
+	background-color: #dedede;
+}
+
+.toolbar li {
+	display: inline-block;
+	cursor: pointer;
+	line-height: 20px;
+}
+
+.toolbar a {
+	padding: 11px 14px;
+	display: inline-block;
+	line-height: 17px;
+	color: #555555;
+	text-decoration: none;
+}
+.toolbar a:hover,.toolbar a:active,.toolbar a:focus {
+    background-color: #3b3b3b;
+    color: white;
+    text-decoration: inherit;
+    background-color: #484848;
+    background-image: -moz-linear-gradient(top, #525252, #3b3b3b);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#525252), to(#3b3b3b));
+    background-image: -webkit-linear-gradient(top, #525252, #3b3b3b);
+    background-image: -o-linear-gradient(top, #525252, #3b3b3b);
+    background-image: linear-gradient(to bottom, #525252, #3b3b3b);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF525252', endColorstr='#FF3B3B3B', GradientType=0)
+}
+.pull-right {
+	float: right;
+}
+@font-face {
+    font-family: 'FontAwesome';
+	src: url(./fonts/fontawesome-webfont.eot);
+    src: url(./fonts/fontawesome-webfont.eot) format("embedded-opentype"),url(./fonts/fontawesome-webfont.woff) format("woff"),url(./fonts/fontawesome-webfont.ttf) format("truetype"),url(./fonts/fontawesome-webfont.svg) format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+[class^="icon-"], [class*=" icon-"] {
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: inherit;
+	-webkit-font-smoothing: antialiased;
+    display: inline;
+    width: auto;
+    height: auto;
+    line-height: normal;
+    vertical-align: baseline;
+    background-image: none;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    margin-top: 0
+}
+.icon-bold:before {
+content: "\f032";
+}
+.icon-italic:before {
+    content: "\f033"
+}
+.icon-strikethrough:before {
+content: "\f0cc";
+}
+.icon-underline:before {
+content: "\f0cd";
+}
+.icon-list:before {
+content: "\f03a";
+}
+.icon-list-ol:before {
+content: "\f0cb";
+}
+.icon-quote-left:before {
+content: "\f10d";
+}
+.icon-link:before {
+content: "\f0c1";
+}
+.icon-picture:before {
+content: "\f03e";
+}
+.icon-rotate-left:before, .icon-undo:before {
+content: "\f0e2";
+}
+.icon-rotate-right:before, .icon-repeat:before {
+content: "\f01e";
+}
+.icon-mail-forward:before, .icon-share-alt:before {
+content: "\f064";
+}
+
+.tooltip {
+	margin-top: -3px;
+	padding: 5px 0;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	font-size: 12.5px;
+	position: absolute;
+	z-index: 1030;
+	visibility: visible;
+	line-height: 1.4;
+	-webkit-transition: opacity 0.15s linear;
+	-moz-transition: opacity 0.15s linear;
+	-o-transition: opacity 0.15s linear;
+	transition: opacity 0.15s linear;
+}
+
+.tooltip .tooltip-arrow {
+	bottom: 0;
+	left: 50%;
+	margin-left: -5px;
+	border-top: 5px solid #000;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	position: absolute;
+	width: 0;
+	height: 0;
+}
+.tooltip .tooltip-inner {
+	max-width: 200px;
+	padding: 8px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	background-color: black;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+
+/************* 文本编辑区 *******************/
+.textarea {
+	width: 100%;
+	outline: none;
+}
