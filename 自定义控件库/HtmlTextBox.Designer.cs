@@ -74,6 +74,7 @@
             this.webBrowserBody.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowserBody.Name = "webBrowserBody";
             this.webBrowserBody.Size = new System.Drawing.Size(625, 418);
+            this.webBrowserBody.ImeMode = System.Windows.Forms.ImeMode.On;
             this.webBrowserBody.TabIndex = 2;
             // 
             // panel
@@ -333,6 +334,7 @@
             this.panel.ResumeLayout(false);
             this.toolBar.ResumeLayout(false);
             this.toolBar.PerformLayout();
+            this.ImeMode = System.Windows.Forms.ImeMode.On;
             ((System.ComponentModel.ISupportInitialize)(this.moodPicture)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

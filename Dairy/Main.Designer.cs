@@ -66,6 +66,7 @@
             this.MaximumSize = new System.Drawing.Size(1366, 728);
             this.MinimizeBox = false;
             this.Name = "Diary";
+            this.ImeMode = System.Windows.Forms.ImeMode.On;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.ResumeLayout(false);
