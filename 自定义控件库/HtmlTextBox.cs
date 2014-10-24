@@ -44,28 +44,6 @@ namespace 自定义控件库
 
         #region Properties
 
-        [Category("HtmlTextBox"), Description("设置文件保存路径")]
-        public String ResourcePath
-        {
-            get { return resource_path; }
-            set
-            {
-                resource_path = value;
-                this.Invalidate();
-            }
-        }
-
-        [Category("HtmlTextBox"), Description("设置文件保存路径")]
-        public String FilePath
-        {
-            get { return file_path; }
-            set
-            {
-                file_path = value;
-                this.Invalidate();
-            }
-        }
-
         [Category("HtmlTextBox"), Description("设置控件大小")]
         public Size BoxSize
         {
@@ -123,7 +101,8 @@ namespace 自定义控件库
         {
             get
             {
-                return webBrowserBody.Document.Body.InnerHtml;
+                String body = webBrowserBody.Document.Body.InnerHtml;
+                return (body == null) ? string.Empty : body;
             }
             set
             {
@@ -473,6 +452,7 @@ namespace 自定义控件库
         {
             try
             {
+                moodName = "微笑";
                 String path = Path.Combine(file_path, fileName + ".md");
                 String content = string.Empty;
                 if (File.Exists(Path.Combine(file_path, fileName + ".md")))

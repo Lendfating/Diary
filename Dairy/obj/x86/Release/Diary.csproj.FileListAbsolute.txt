@@ -1,0 +1,11 @@
+C:\Users\Zhen\Desktop\Diary\Dairy\bin\Release\Diary.exe.config
+C:\Users\Zhen\Desktop\Diary\Dairy\bin\Release\Diary.exe
+C:\Users\Zhen\Desktop\Diary\Dairy\bin\Release\Diary.pdb
+C:\Users\Zhen\Desktop\Diary\Dairy\bin\Release\自定义控件库.dll
+C:\Users\Zhen\Desktop\Diary\Dairy\bin\Release\自定义控件库.pdb
+C:\Users\Zhen\Desktop\Diary\Dairy\obj\x86\Release\Diary.csprojResolveAssemblyReference.cache
+C:\Users\Zhen\Desktop\Diary\Dairy\obj\x86\Release\Diary.Main.resources
+C:\Users\Zhen\Desktop\Diary\Dairy\obj\x86\Release\Diary.Properties.Resources.resources
+C:\Users\Zhen\Desktop\Diary\Dairy\obj\x86\Release\Diary.csproj.GenerateResource.Cache
+C:\Users\Zhen\Desktop\Diary\Dairy\obj\x86\Release\Diary.exe
+C:\Users\Zhen\Desktop\Diary\Dairy\obj\x86\Release\Diary.pdb

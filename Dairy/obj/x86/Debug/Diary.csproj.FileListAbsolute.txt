@@ -9,3 +9,14 @@ C:\Users\Zhen\Desktop\workspace\Diary Workspace\Dairy\obj\x86\Debug\Diary.Proper
 C:\Users\Zhen\Desktop\workspace\Diary Workspace\Dairy\obj\x86\Debug\Diary.csproj.GenerateResource.Cache
 C:\Users\Zhen\Desktop\workspace\Diary Workspace\Dairy\obj\x86\Debug\Diary.exe
 C:\Users\Zhen\Desktop\workspace\Diary Workspace\Dairy\obj\x86\Debug\Diary.pdb
+C:\Users\Zhen\Desktop\Diary\Dairy\bin\Debug\Diary.exe.config
+C:\Users\Zhen\Desktop\Diary\Dairy\obj\x86\Debug\Diary.exe
+C:\Users\Zhen\Desktop\Diary\Dairy\obj\x86\Debug\Diary.pdb
+C:\Users\Zhen\Desktop\Diary\Dairy\obj\x86\Debug\Diary.csprojResolveAssemblyReference.cache
+C:\Users\Zhen\Desktop\Diary\Dairy\obj\x86\Debug\Diary.Main.resources
+C:\Users\Zhen\Desktop\Diary\Dairy\obj\x86\Debug\Diary.Properties.Resources.resources
+C:\Users\Zhen\Desktop\Diary\Dairy\obj\x86\Debug\Diary.csproj.GenerateResource.Cache
+C:\Users\Zhen\Desktop\Diary\Dairy\bin\Debug\Diary.exe
+C:\Users\Zhen\Desktop\Diary\Dairy\bin\Debug\Diary.pdb
+C:\Users\Zhen\Desktop\Diary\Dairy\bin\Debug\自定义控件库.dll
+C:\Users\Zhen\Desktop\Diary\Dairy\bin\Debug\自定义控件库.pdb
